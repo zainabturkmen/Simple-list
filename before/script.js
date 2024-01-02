@@ -14,6 +14,10 @@ newItemForm.addEventListener("submit", e  => {
 
      itemInput.value = ""
 
+     newItem.addEventListener('click', () => {
+        list.removedChild(newItem)
+     })
 
-    //  console.log(newItem)
+
+     console.log(newItem)
 })
