@@ -17,7 +17,5 @@ newItemForm.addEventListener("submit", e  => {
      newItem.addEventListener('click', () => {
         list.removedChild(newItem)
      })
-
-
-     console.log(newItem)
+     
 })
